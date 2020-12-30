@@ -7,7 +7,7 @@ const spectron = __non_webpack_require__('spectron')
 chai.should()
 chai.use(chaiAsPromised)
 
-describe('Application launch', function () {
+describe('Application launch', function app () {
     this.timeout(30000)
 
     beforeEach(function () {
